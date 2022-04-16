@@ -1,6 +1,7 @@
 $(document).ready(function () {
   var now = moment().format("MMMM Da YYYY, h:mm:ss a");
   $("#currentDay").text(now);
+  
 
   //1.on clikc function for save button to save the message into local storage
   // 2.based on block hour and compared to current hour on js create if and else statements for different blocks class color
